@@ -1,0 +1,81 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = TempBadgeESS.Web.Solution
+build_property.RootNamespace = TempBadgeESS.Web.Solution
+build_property.ProjectDir = C:\MyCodes\AzureDemo\TempBadgeESSMicroServicesDemo\TempBadgeESS.Web.Solution\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\MyCodes\AzureDemo\TempBadgeESSMicroServicesDemo\TempBadgeESS.Web.Solution
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/MyCodes/AzureDemo/TempBadgeESSMicroServicesDemo/TempBadgeESS.Web.Solution/Views/Employee/Search.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcU2VhcmNoLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/MyCodes/AzureDemo/TempBadgeESSMicroServicesDemo/TempBadgeESS.Web.Solution/Views/Employee/SignIn.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcU2lnbkluLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/MyCodes/AzureDemo/TempBadgeESSMicroServicesDemo/TempBadgeESS.Web.Solution/Views/Employee/SignOut.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcU2lnbk91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/MyCodes/AzureDemo/TempBadgeESSMicroServicesDemo/TempBadgeESS.Web.Solution/Views/Guard/BadgeOutPage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3VhcmRcQmFkZ2VPdXRQYWdlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/MyCodes/AzureDemo/TempBadgeESSMicroServicesDemo/TempBadgeESS.Web.Solution/Views/Guard/BadgeQueuePage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3VhcmRcQmFkZ2VRdWV1ZVBhZ2UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/MyCodes/AzureDemo/TempBadgeESSMicroServicesDemo/TempBadgeESS.Web.Solution/Views/Guard/CreateTempBadge.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3VhcmRcQ3JlYXRlVGVtcEJhZGdlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/MyCodes/AzureDemo/TempBadgeESSMicroServicesDemo/TempBadgeESS.Web.Solution/Views/Guard/Report.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3VhcmRcUmVwb3J0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/MyCodes/AzureDemo/TempBadgeESSMicroServicesDemo/TempBadgeESS.Web.Solution/Views/Guard/SignOutPage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3VhcmRcU2lnbk91dFBhZ2UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/MyCodes/AzureDemo/TempBadgeESSMicroServicesDemo/TempBadgeESS.Web.Solution/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/MyCodes/AzureDemo/TempBadgeESSMicroServicesDemo/TempBadgeESS.Web.Solution/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/MyCodes/AzureDemo/TempBadgeESSMicroServicesDemo/TempBadgeESS.Web.Solution/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/MyCodes/AzureDemo/TempBadgeESSMicroServicesDemo/TempBadgeESS.Web.Solution/Views/Shared/_LoginPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/MyCodes/AzureDemo/TempBadgeESSMicroServicesDemo/TempBadgeESS.Web.Solution/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/MyCodes/AzureDemo/TempBadgeESSMicroServicesDemo/TempBadgeESS.Web.Solution/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/MyCodes/AzureDemo/TempBadgeESSMicroServicesDemo/TempBadgeESS.Web.Solution/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/MyCodes/AzureDemo/TempBadgeESSMicroServicesDemo/TempBadgeESS.Web.Solution/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-gq44ilqfef

@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\TempBadgeESS.GuardAPI.Solution.props" />
+</Project>

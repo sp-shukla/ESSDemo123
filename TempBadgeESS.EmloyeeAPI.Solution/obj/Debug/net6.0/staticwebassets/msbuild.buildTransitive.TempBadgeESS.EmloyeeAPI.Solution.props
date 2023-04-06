@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\TempBadgeESS.EmloyeeAPI.Solution.props" />
+</Project>
