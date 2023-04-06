@@ -1,0 +1,52 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+<nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mt-1 p-2 mb-4 ">
+    <div class="container-fluid">
+
+
+        <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+            <ul class="navbar-nav flex-grow-1">
+
+                <li class="nav-item">
+                    <a class="btn btn-outline-dark border-1 mx-2" asp-area="" asp-controller="Guard" asp-action="BadgeQueuePage">BadgeQueue</a>
+                </li>
+                <li class="nav-item">
+                    <a class="btn btn-outline-dark border-1 mx-2" asp-area="" asp-controller="Guard" asp-action="Report">Report</a>
+                </li>
+                <li class="nav-item">
+                    <a class="btn btn-outline-dark border-1 mx-2" asp-area="" asp-controller="Guard" asp-action="BadgeOutPage">BadgeOut</a>
+                </li>
+            </ul>
+
+        </div>
+
+
+    </div>
+</nav>
+
+
+<div class="container  align-content-center mt-5">
+    <div class="row">
+        <div class="col-6 offset-3  border border-2 border-primary rounded rounded-2 ">
+            <div class="text-center">
+            </div>
+
+            <div class="container m-2 p-2">
+                <div class="row m-2">
+                    <div class="col-6 btn-group" role="group">
+                        <a asp-action="SignIn" asp-controller="Employee" class="btn btn-primary mx-2">SignIn</a>
+                    </div>
+                    <div class="col-6 btn-group" role="group">
+                        <a asp-action="SignOut" asp-controller="Employee" class="btn btn-outline-dark border-1 mx-2">SignOut</a>
+                    </div>
+
+                </div>
+            </div>
+
+
+
+
+        </div>
+    </div>
+</div>

@@ -1,0 +1,41 @@
+﻿@model EmployeeDto
+
+<div class="">
+    <h2 class="text-light text-center p-1 text-bg-primary mb-4">Temporary badge assignment system</h2>
+
+    <div class="container">
+        <form method="post">
+            <div class="container border border-2 border-info rounded-3 col-6 offset-3 mt-4 ">
+
+                <div>
+                    <div class="row m-3">
+                        <div>
+                            <div class="form-group ">
+                                <br />
+                                <label asp-for="FirstName" class="text-primary fw-bold">First Name</label>
+                                <input type="text" class="border border-1 border-info" asp-for="FirstName" autocomplete="off" />
+                                <span asp-validation-for="FirstName" class="text-bg-danger"></span>
+                            </div>
+                            <div class="form-group">
+                                <br />
+                                <label asp-for="LastName" class="text-primary fw-bold">Last Name</label>
+                                <input type="text" class="border border-1 border-info" asp-for="LastName" autocomplete="off" />
+                                <span asp-validation-for="LastName" class="text-bg-danger"></span>
+                            </div>
+                            <div class="form-group">
+                                <br />
+                                <button type="submit" asp-controller="Employee" asp-action="Search" class="btn btn-primary" style="width:150px">Search</button>
+
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+        </form>
+    </div>
+</div>

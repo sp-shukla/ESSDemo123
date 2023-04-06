@@ -1,0 +1,40 @@
+﻿@model EmployeeEntryDto
+<html>
+<head>
+    <style>
+        input::-webkit-outer-spin-button,
+        input::-webkit-inner-spin-button {
+            -webkit-appearance: none;
+            margin: 0;
+        }
+
+        /* Firefox */
+        input[type=number] {
+            -moz-appearance: textfield;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div>
+            <div>
+                <h2 class="text-light text-center p-1 text-bg-primary mb-4">Temporary badge assignment system</h2>
+            </div>
+            <div class="container border border-2 border-info rounded-3 col-6 offset-3 mt-4  p-3">
+                <form method="post" asp-action="SignOutPage">
+                    <div class="form-group" >
+                        <br />
+                        <label asp-for="TemporaryBadge" class="text-primary fw-bold">Enter Temporary Badge Number</label>
+                        <input type="number" class="border border-2 border-primary" name="TemporaryBadge" asp-for="TemporaryBadge" autocomplete="off" />
+                    </div>
+                    <div class="form-group">
+                        <br />
+                        <button type="submit" asp-controller="Guard" asp-action="SignOutPage" class="btn btn-primary" style="width:150px">Sign Me Out</button>
+                    </div>
+                </form>
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>

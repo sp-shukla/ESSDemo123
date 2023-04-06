@@ -1,0 +1,78 @@
+﻿@*@model EmployeeEntryDto
+*@
+
+
+
+<h2 class="text-bg-primary text-center mb-4 text-center">Badge Report</h2>
+<br />
+<br />
+<div class="text-center">
+    @using (Html.BeginForm("FilterPage", "Guard", FormMethod.Post))
+    {
+        <h6>
+            Enter Start Date : <input type="date" name="signin" >
+            Enter First Name : <input type="text" name="fname">
+        </h6>
+        <br />
+        <br />
+        <h6>
+            Enter End Date : <input type="date" name="signout" >
+            Enter Last Name : <input type="text" name="lname">
+        </h6>
+        <br />
+        <br />
+        <input type="submit" value="Search">
+    }
+</div>
+<br />
+<br />
+
+
+
+
+
+@if (Model == null)
+{
+
+    <h2 class="text-bg-danger text-center p-4">Oops...</h2>
+
+
+}
+else
+{
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Temporary Badge Number</th>
+                <th>SignIn Date Time</th>
+
+                <th>SignOut Date Time</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var data in Model)
+            {
+                <tr>
+                    <td>
+                        @data.FirstName @data.LastName
+                    </td>
+                    <td>
+                        @data.TemporaryBadge
+                    </td>
+                    <td>
+                        @data.SignIn
+                    </td>
+
+                    <td>
+                        @data.SignOut
+                    </td>
+
+
+
+                </tr>
+            }
+
+        </tbody>
+    </table>
+}

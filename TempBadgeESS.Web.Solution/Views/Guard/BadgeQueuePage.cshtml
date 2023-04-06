@@ -1,0 +1,46 @@
+﻿@model IEnumerable<GuardDto>
+@*@{
+    ViewData["Title"] = "BadgeQueue";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}*@
+
+<h1 class="text-bg-primary text-center mb-4">BadgeQueue</h1>
+
+<table class="table table-bordered table-striped">
+    <thead>
+        <tr>
+            <th>Profile</th>
+            <th> Name</th>
+            <th>Badge Number</th>
+            <th>Status</th>
+
+        </tr>
+
+    </thead>
+    <tbody>
+
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    <img width="100px" height="auto" style="max-width:100%;
+height:auto;margin-left:auto;
+margin-right:auto;
+display:block;  " src="@item.Image" />
+                </td>
+                <td>
+                    @item.FirstName @item.LastName
+                </td>
+                <td>
+                    @item.TemporaryBadge
+                </td>
+                <td>
+                    @item.Status
+                </td>
+
+
+            </tr>
+        }
+    </tbody>
+</table>
